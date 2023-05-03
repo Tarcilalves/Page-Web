@@ -1,0 +1,15 @@
+:root {
+    --branco: #FFF;
+    --cor-secundaria: #56CCF2;
+    
+    --azul-escuro: #0D1933;
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #D9D9D9;       
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+    --borda-cabecalho-mobile: #0D1933;
+    --bg-rodape: #333;
+    --bg-chamada-mobile: #00161C;
+    --montserrat: 'Montserrat', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
