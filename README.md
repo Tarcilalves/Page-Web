@@ -50,7 +50,7 @@ Posteriormente, aprimorei a página, transformando-a em uma página pessoal e ap
 # Acesso ao projeto
 
  <br> 
-:open_file_folder: [Acesse meu projeto](https://tarcilalves.github.io/BarbeariaAlura/).
+:open_file_folder: [Acesse meu projeto](https://tarcilalves.github.io/Page-Web/).
 
 
 # Tecnologias utilizadas
