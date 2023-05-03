@@ -1,0 +1,57 @@
+:root {
+    --branco: #F6F6F6;
+    --cor-secundaria: #56CCF2;
+    
+    --azul-escuro: #0D1933;
+    --cinza-claro: #F7F4F4;
+    --cinza-medio: #D9D9D9;       
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+    --borda-cabecalho-mobile: #0D1933;
+    --bg-rodape: #333;
+    --bg-chamada-mobile: #00161C;
+    --montserrat: 'Montserrat', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.container-geral{
+    display: flex;
+    flex-direction:  row;    
+    margin: 5rem;
+    font-family: 'Poppins', sans-serif;     
+    
+    
+}
+
+
+
+@media screen and (min-width:768px ){
+    .container-geral {
+        align-items: center;
+        flex-shrink: 1; 
+        max-width: 768px;
+        margin-top: 5rem;
+        margin-left: 0.8rem;
+        
+    }
+    
+   
+}
+
+@media screen and (min-width: 1024px) {
+    .container-geral {
+        flex-direction: row;        
+        align-items: center;
+        margin-left: 10rem;
+        
+
+       
+    }
+
+   
+}

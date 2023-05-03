@@ -1,0 +1,61 @@
+
+.texto-cabecario{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 3rem;
+}
+
+.container__conteudo{
+    font-weight: 400;
+    text-align: justify;    
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+
+strong{
+    color: #22D4FD;
+}
+
+/*Botão */
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1rem;    
+     
+    
+    
+    
+}
+
+
+
+.botao-redessociais {
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--azul-escuro); 
+    border: 1px solid var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
+    padding: 0.5rem 2rem;
+    border-radius: 5rem; 
+   
+    
+}
+
+.container-imagem{
+    display: flex;
+    flex-shrink: 1; 
+}
+
+.imagem{
+       
+    width: 100%;    
+    padding-left: 1rem;
+    flex: 0 2rem 2rem;
+}
+
