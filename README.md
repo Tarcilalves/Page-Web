@@ -39,8 +39,9 @@ Posteriormente, aprimorei a página, transformando-a em uma página pessoal e ap
 
 
 
-![Tarcila Cardoso Alves - Dev de Front-End](https://user-images.githubusercontent.com/107896645/235955776-45e06fc7-57c8-450b-9d0a-5b12e39283ac.png)
 
+
+![Tarcila Cardoso Alves - Dev de Front-End (2)](https://user-images.githubusercontent.com/107896645/235994134-8cae044f-c89a-4ab1-915a-72ce5c85aad1.png)
 
 
 
