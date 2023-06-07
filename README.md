@@ -28,7 +28,7 @@ Posteriormente, aprimorei a página, transformando-a em uma página pessoal e ap
 
 # Status do Projeto
 <p align="center ">
-<img src="https://img.shields.io/badge/<STATUS>- Finalizado-<COLOR>"> 
+<img src="https://img.shields.io/badge/<STATUS>- em contrução-<COLOR>"> 
 </p>
 
 # Funcionalidades do projeto
