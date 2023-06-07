@@ -2,7 +2,7 @@
 # Page Sobre
 > De fotógrafa a desenvolvedora front-end: minha jornada no programação.
 
-<p align="center">  :construction: <img src="https://img.shields.io/badge/<STATUS>- Finalizado -<COLOR>"> :construction: </p>
+<p align="center">  :construction: <img src="https://img.shields.io/badge/<STATUS>- Em construção -<COLOR>"> :construction: </p>
 
 
 
