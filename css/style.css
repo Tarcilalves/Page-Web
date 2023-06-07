@@ -1,61 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-.texto-cabecario{
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.25rem;
-    line-height: 3rem;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.container__conteudo{
-    font-weight: 400;
-    text-align: justify;    
-    font-size: .8rem;
-    line-height: 1.5rem;
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
-
-strong{
+.titulo-destaque{
     color: #22D4FD;
 }
 
-/*Botão */
-
-.botao{
+.apresentacao{
+    margin: 10% 15%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One" , sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.apresentacao__links__link{
+   /* background-color: #22D4FD; */
+    border: 2px solid #22D4FD;
+    width: 280px;
     text-align: center;
-    margin-top: 1rem;    
-     
-    
-    
-    
-}
-
-
-
-.botao-redessociais {
-    margin: 1rem;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--azul-escuro); 
-    border: 1px solid var(--cor-secundaria);
-    background-color: var(--cor-secundaria);
-    padding: 0.5rem 2rem;
-    border-radius: 5rem; 
-   
-    
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
 }
-
-.container-imagem{
-    display: flex;
-    flex-shrink: 1; 
-}
-
-.imagem{
-       
-    width: 100%;    
-    padding-left: 1rem;
-    flex: 0 2rem 2rem;
-}
-

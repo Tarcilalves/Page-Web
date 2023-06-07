@@ -1,6 +1,6 @@
 :root {
     --branco: #F6F6F6;
-    --cor-secundaria: #56CCF2;
+    --cor-secundaria: #22D4FA;
     
     --azul-escuro: #0D1933;
     --cinza-claro: #F7F4F4;
@@ -19,7 +19,7 @@ body{
     color: var(--branco);
 }
 
-.container-geral{
+.apresentacao{
     display: flex;
     flex-direction:  row;    
     margin: 5rem;
@@ -30,28 +30,31 @@ body{
 
 
 
-@media screen and (min-width:768px ){
-    .container-geral {
+
+
+@media screen and (min-width: 640px) {
+    .body{
+        flex-direction: column;        
+        align-items: center;
+        margin-left: 10rem;   
+
+       
+    }
+
+   
+}
+
+@media screen and (max-width: 640px ){
+    .body {
         align-items: center;
         flex-shrink: 1; 
         max-width: 768px;
         margin-top: 5rem;
         margin-left: 0.8rem;
+
+        
         
     }
     
-   
-}
-
-@media screen and (min-width: 1024px) {
-    .container-geral {
-        flex-direction: row;        
-        align-items: center;
-        margin-left: 10rem;
-        
-
-       
-    }
-
    
 }
