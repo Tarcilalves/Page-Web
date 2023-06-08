@@ -8,21 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
     
 </head>
 <body>
-    <header>    
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">  
+            <a class="cabecalho__menu__link" href="index.html" >Home</a>
+            <a class="cabecalho__menu__link" href="about.html" >Sobre mim</a>
+        </nav>
     </header>
     <main class = "apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong></strong>
-                class="titulo-destaque">com um Front-end de qualidade!
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <span class="titulo-destaque">com uma Front-end de qualidade! </span>
             </h1>
                         
             <p class="apresentacao__conteudo__texto">  Olá! Meu nome é Tarcila Cardoso Alves, sou fotógrafa 
-            e estudante de tecnologia em desenvolvimento para <span>Back-End | Front-End | HTML | CSS | JavaScript | react | UX-UI .</span>
+            e estudante de tecnologia em desenvolvimento para Back-End | Front-End | HTML | CSS | JavaScript | React | UX-UI .
             </p>    
                            
             <div class="apresentacao__links">
@@ -42,8 +47,10 @@
                 </a>
             </div>
         </section>
-        <img src="assets/Imagem.png" alt="Foto da Tarcila Cardoso Alves programando" class="img"> 
+        <img class="imagem" src="assets/Imagem.png" alt="Foto da Tarcila Cardoso Alves programando" class="img"> 
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Tarcila Alves</p>
+    </footer>
 </body>
 </html>
