@@ -35,11 +35,12 @@ body{
 
     }
 
-    .cabecalho__menu{
-        
-    }
-
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 1rem 4rem;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
     }
 }

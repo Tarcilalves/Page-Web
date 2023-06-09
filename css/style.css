@@ -14,7 +14,7 @@ body{
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 1rem 2rem 0;
+    padding: 2rem 7rem;
 }
 
 .cabecalho__menu{
