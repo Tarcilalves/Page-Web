@@ -1,5 +1,6 @@
 :root {
     --cor-primaria: #0D1933;
+    --cor-primeriaPreta: #000000;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #22D4FA;
 
@@ -11,8 +12,11 @@
 }
 
 body{
-    background-color: var(--cor-primaria);
+    
+    box-sizing: border-box;
+    background-color: var(--cor-primeriaPreta);
     color: var(--cor-secundaria);
+    
 }
 
 .apresentacao{
@@ -25,7 +29,9 @@ body{
     
 }
 
-@media(min-width:801px) and (max-width:1200px){
+@media(min-width:801px) and (max-width:1920px){
+
+    
 
     .cabecalho {
         display: flex;
@@ -42,7 +48,7 @@ body{
 
     .apresentacao__imagem{
 
-        width: 100%;
+        width: auto;
 
     }
 
@@ -95,8 +101,9 @@ body{
     
     .cabecalho {
         display: flex;
+        align-items: center;        
         justify-content: center;
-        font-size: 0.5em;
+        font-size: 0.5em;     
         
 
     }
@@ -109,18 +116,23 @@ body{
 
     .apresentacao__imagem{
 
-        width: 100%
+        width: auto;
 
     }
 
     
     .apresentacao__conteudo{
+        
         width: auto;
         gap: 2rem;
     }
 
     .apresentacao__links__navegacao{
         width: 100%;
+    }
+
+    .rodape{
+        font-size: 0.7rem;
     }
 
   
