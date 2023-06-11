@@ -17,9 +17,11 @@ body{
     background-color: var(--cor-primeriaPreta);
     color: var(--cor-secundaria);
     
+    
+    
 }
 
-.apresentacao{
+/*.apresentacao{
     padding: 5rem 5rem;
     display: flex;
     flex-direction:  row;     
@@ -27,14 +29,14 @@ body{
     font-family: var(--montserrat)     
     
     
-}
+}*/
 
 @media(min-width:801px) and (max-width:1920px){
 
     
 
     .cabecalho {
-        display: flex;
+        
         justify-content: center;
         font-size: 1.5rem;
         
@@ -53,7 +55,7 @@ body{
     }
 
     .apresentacao__conteudo{
-        width: auto;
+        width: 100%;
     }
 
   
@@ -85,7 +87,7 @@ body{
 
     
     .apresentacao__conteudo{
-        width: 100%;
+        width: auto;
     }
 
     .apresentacao__links__navegacao{
@@ -100,17 +102,18 @@ body{
 
     
     .cabecalho {
-        display: flex;
-        align-items: center;        
-        justify-content: center;
-        font-size: 0.5em;     
+        display: flex;              
+        justify-content: space-around;
+        font-size: 1em;  
+        padding: 2rem 1rem 1rem 1rem;   
         
 
     }
 
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 0.5rem 0;
+        justify-content: center;
+        
     }
 
 
@@ -125,6 +128,10 @@ body{
         
         width: auto;
         gap: 2rem;
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: 1.2rem;
     }
 
     .apresentacao__links__navegacao{

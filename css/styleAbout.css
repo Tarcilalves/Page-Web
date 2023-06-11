@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .cabecalho {
     display: flex;
@@ -24,15 +28,15 @@
 
 .apresentacao{
     display: flex;
-    align-items: center;
-       
+    flex-direction: row;
+          
     gap: 82px
 }
 
 
 .apresentacao__conteudo{
-    width: 50%;
-    display: flex;
+    width: 100%;
+    display: flex;    
     flex-direction: column;
     gap: 3rem;
    
@@ -52,6 +56,7 @@
 .apresentacao__conteudo__texto{
     font-size: 1.5em;
     font-family: var(--montserrat);
+    text-align: left;
     
     line-height: 2rem;
 }
